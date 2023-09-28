@@ -13,3 +13,13 @@ At Artistic Childhood, we believe that every child deserves the opportunity to n
 Join us on a journey where education is exciting, community is empowering, and every child's voice matters. Together, we can inspire a new generation of young advocates who are passionate about child rights and making the world a better place for all.
 
 Unlock the power of knowledge, creativity, and community at Artistic Childhood. Let's learn, play, and change the world, one right at a time!"
+
+
+
+##  Team members
+Leader: Shaswata Saha(shaswata.ssaha@gmail.com)
+Member 1:
+Member 2:
+Member 3:
+Member 4:
+Member 5:
