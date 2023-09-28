@@ -18,7 +18,7 @@ Unlock the power of knowledge, creativity, and community at Artistic Childhood. 
 
 ##  Team members
 Leader: Shaswata Saha(shaswata.ssaha@gmail.com)
-Member 1:
+Member 1: Pratham Agarwal (gargpratham71@gmail.com)
 Member 2:
 Member 3:
 Member 4:
