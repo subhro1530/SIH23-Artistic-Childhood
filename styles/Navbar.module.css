@@ -1,0 +1,35 @@
+/* styles/Navbar.module.css */
+
+.navbar {
+  font-family: "Aclonica", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; /* Set your desired background color or use 'transparent' */
+  padding: 15px;
+  
+}
+
+.logo img {
+  width: 50px; /* Set the width of your 3D model icon */
+}
+
+.links a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+.auth a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-weight: 200;
+  font-size: 16px;
+}
+
+/* Add more styling as needed */
