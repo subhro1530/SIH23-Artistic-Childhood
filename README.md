@@ -1,4 +1,4 @@
-#🌈 Welcome to 'Bal Adhikar FunQuest' – Where Learning Blossoms into Play!
+#  🌈 Welcome to 'Bal Adhikar FunQuest' – Where Learning Blossoms into Play!
 
 At Bal Adhikar FunQuest, we believe that every child deserves the opportunity to not only learn about their rights but also to do so in a fun and engaging way. Our platform is designed to empower children aged 6 to 16 with a deep understanding of their rights through gamification and foster a sense of community where they can interact, share ideas, and make their voices heard.
 
