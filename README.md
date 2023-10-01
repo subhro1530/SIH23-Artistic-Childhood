@@ -17,9 +17,9 @@ Unlock the power of knowledge, creativity, and community at Artistic Childhood. 
 
 
 ##  Team members
-Leader: Shaswata Saha(shaswata.ssaha@gmail.com)
-Member 1: Pratham Agarwal (gargpratham71@gmail.com)
-Member 2: Archana Kumari (01archanakri@gmail.com)
-Member 3:
-Member 4:
-Member 5:
+*  Leader: Shaswata Saha(shaswata.ssaha@gmail.com)
+*  Member 1: Pratham Agarwal (gargpratham71@gmail.com)
+*  Member 2: Archana Kumari (01archanakri@gmail.com)
+*  Member 3: Isha Kumari (singhisha116@gmail.com)
+*  Member 4:
+*  Member 5:
