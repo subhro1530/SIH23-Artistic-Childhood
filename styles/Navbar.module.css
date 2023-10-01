@@ -10,8 +10,17 @@
   
 }
 
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.canvas {
+  border: 5px solid black;
+  background-size: cover;
+}
 .logo img {
-  width: 50px; /* Set the width of your 3D model icon */
+  width: 100%; /* Set the width of your 3D model icon */
 }
 
 .links a {
