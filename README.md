@@ -21,5 +21,5 @@ Unlock the power of knowledge, creativity, and community at Bal Adhikar FunQuest
 *  Member 1: Pratham Agarwal (gargpratham71@gmail.com)
 *  Member 2: Archana Kumari (01archanakri@gmail.com)
 *  Member 3: Isha Kumari (singhisha116@gmail.com)
-*  Member 4: Unneta Chatterjee
-*  Member 5: Hreetam Paul
+*  Member 4: Unneta Chatterjee(unnetachatrg@gmail.com)
+*  Member 5: Hreetam Paul(hreetam10@gmail.com)
