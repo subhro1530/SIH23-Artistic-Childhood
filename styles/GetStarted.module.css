@@ -1,0 +1,42 @@
+.body{
+    font-family: 'Aclonica',sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    font-size: 50px;
+    width: 80%;
+    color: rgb(0, 46, 121);
+    text-align: center;
+}
+.para{
+    margin-top: 20px;
+    color: rgb(255, 0, 81);
+}
+
+.buttons{
+    margin-top: 20px;
+    
+}
+
+.getstarted{
+    background-color: rgb(0, 5, 81);
+    color: rgb(105, 205, 255);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Aclonica',sans-serif;
+}
+
+.learn{
+    margin-left: 20px;
+    background-color: rgb(255, 0, 30);
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Aclonica',sans-serif;
+}

@@ -7,12 +7,28 @@
   align-items: center;
   background-color: transparent; /* Set your desired background color or use 'transparent' */
   padding: 15px;
-  
+  position: fixed;
+  width: 98vw;
 }
 
 .logo {
-  width: 100px;
+  width: 200px;
   height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+}
+.logo .head{
+  width: 100%;
+}
+.logo .head .top{
+  font-size: 25px;
+  color: rgb(216, 0, 61);
+}
+.logo .head .bottom{
+  color: rgb(23, 0, 113);
 }
 
 .canvas {
@@ -27,18 +43,31 @@
   margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
-  color: black;
-  font-weight: 200;
+  color:rgb(255, 0, 0);
+  font-weight: 300;
   font-size: 16px;
+  transition: .2s ease-in-out;
+}
+.links a:hover {
+  color: rgb(0, 0, 138);
+  /* text-decoration: overline 3px; */
+  letter-spacing: 0.8px;
 }
 
 .auth a {
-  margin: 0 15px;
+  margin: 0 5px;
+  padding: 15px 15px;
+  border-radius: 20px;
   text-decoration: none;
   font-weight: bold;
-  color: black;
+  color: rgb(255, 255, 255);
   font-weight: 200;
-  font-size: 16px;
+  font-size: 13px;
+  background-color: rgb(34, 0, 136);
+  transition: .2s ease-in-out;
+}
+.auth a:hover{
+  letter-spacing: 0.8px;
 }
 
 /* Add more styling as needed */

@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
           rel="stylesheet"
         />
       </Head>
-      <Navbar />
+      
       <Component {...pageProps} />
     </div>
   );
