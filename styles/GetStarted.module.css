@@ -15,8 +15,9 @@
 .para{
     margin-top: 20px;
     color: rgb(255, 0, 81);
+    text-align: center;
+    width: 80%;
 }
-
 .buttons{
     margin-top: 20px;
     
