@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   background-color: transparent; /* Set your desired background color or use 'transparent' */
-  padding: 15px;
+  padding:  0 15px;
   position: fixed;
   width: 98vw;
 }
