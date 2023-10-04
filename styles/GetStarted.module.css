@@ -21,6 +21,10 @@
     margin-top: 20px;
     
 }
+.spline{
+    position: fixed;
+    z-index: -2;
+}
 
 .getstarted{
     background-color: rgb(0, 5, 81);
