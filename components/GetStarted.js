@@ -5,6 +5,7 @@ import styles from "../styles/GetStarted.module.css";
 import Spline from "@splinetool/react-spline";
 import { Application } from "@splinetool/runtime";
 import { useState } from "react";
+import Link from "next/link";
 
 const GetStarted = () => {
   const [myObj, setMyObj] = useState(null);
@@ -34,8 +35,8 @@ const GetStarted = () => {
           Explore amazing features and content. Get started now!
         </p>
         <div className={styles.buttons}>
-          <button className={styles.getstarted}>Embark on the Quest</button>
-          <button className={styles.learn}>Explore More</button>
+          <Link href="/gameplay" className={styles.getstarted}>Embark on the Quest</Link>
+          <Link href="/community" className={styles.learn}>Explore More</Link>
         </div>
       </div>
     </>
