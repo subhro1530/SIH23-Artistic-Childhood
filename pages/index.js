@@ -9,7 +9,8 @@ const Home = () => {
     <div>
       {/* Your other page content goes here */}
       <Navbar />
-      <GetStarted/>
+      <GetStarted />
+      <Features/>
     </div>
   );
 };

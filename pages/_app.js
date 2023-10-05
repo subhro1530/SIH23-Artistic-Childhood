@@ -19,8 +19,6 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"rel="stylesheet"
         />
       </Head>
-      <Navbar />
-      <Features />
       <Component {...pageProps} />
     </div>
   );
