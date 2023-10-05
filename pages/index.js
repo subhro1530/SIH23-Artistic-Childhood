@@ -2,6 +2,7 @@
 
 import GetStarted from "@/components/GetStarted";
 import Navbar from "../components/Navbar";
+import Features from "../components/Features";
 
 const Home = () => {
   return (

@@ -1,0 +1,159 @@
+/* styles/Features.module.css */
+
+.features_large{
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    flex-wrap: wrap;
+    height: 90%;
+    width: 90%;
+}
+
+.features_box1{
+    /* background-color: red; */
+    display: flex;
+    margin: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.img1_section{
+    /* background-color: blue; */
+    margin: 2rem;
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    border-radius: 1rem;
+}
+.content1_section{
+    /* background-color: hotpink; */
+    margin: 2rem;
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cr_title1{
+    font-family: "Aclonica", sans-serif;
+    font-size: 3rem;
+    margin: 4rem 2rem;
+    font-weight: bold;
+}
+.cr_text1{
+    font-family: "Aclonica", sans-serif;
+    font-size: 1rem;
+    margin: 2rem;
+    color: gray;
+}
+.btncont1{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    align-items: center;
+}
+.btn1_i{
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: black;
+    font-family: "Aclonica", sans-serif;
+    color: white;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    margin: 2rem;
+    cursor: pointer;
+}
+.btn1_ii{
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: rgb(199, 196, 196);
+    font-family: "Aclonica", sans-serif;
+    color: black;
+    font-weight: bold;
+    margin: 2rem;
+    cursor: pointer;
+}
+.features_box2{
+    /* background-color: green; */
+    display: flex;
+    margin: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content2_section{
+    /* background-color: aqua; */
+    margin: 2rem;
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cr_title2{
+    font-family: "Aclonica", sans-serif;
+    font-size: 3rem;
+    margin: 4rem 2rem;
+    font-weight: bold;
+}
+.cr_text2{
+    font-family: "Aclonica", sans-serif;
+    font-size: 1rem;
+    margin: 2rem;
+    color: gray;
+}
+.btncont2{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    /* align-items: center; */
+}
+.btn2_i{
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: black;
+    font-family: "Aclonica", sans-serif;
+    color: white;
+    font-weight: bold;
+    border: 0.1rem solid white;
+    margin: 2rem;
+    cursor: pointer;
+}
+.btn2_ii{
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color: rgb(199, 196, 196);
+    font-family: "Aclonica", sans-serif;
+    color: black;
+    font-weight: bold;
+    margin: 2rem;
+    cursor: pointer;
+}
+.img2_section{
+    /* background-color: darkorange; */
+    margin: 2rem;
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img2{
+border-radius: 1rem;
+}
