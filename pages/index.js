@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div>
       {/* Your other page content goes here */}
-      <GetStarted/>
       <Navbar />
+      <GetStarted/>
     </div>
   );
 };
