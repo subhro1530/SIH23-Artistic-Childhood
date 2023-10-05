@@ -20,6 +20,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-three-fiber": "^6.0.13",
+    "spline": "^0.0.0",
     "tailwindcss": "3.3.3"
   }
 }
