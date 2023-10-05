@@ -5,3 +5,12 @@
     padding: 0;
     
 }
+::-moz-selection { /* Code for Firefox */
+  color: black;
+  background: white;
+}
+
+::selection {
+  color: black;
+  background: white;
+}

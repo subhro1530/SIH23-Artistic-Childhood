@@ -17,6 +17,7 @@
     color: rgb(255, 0, 81);
     text-align: center;
     width: 80%;
+    margin-bottom: 20px;
 }
 .buttons{
     margin-top: 20px;
@@ -35,6 +36,11 @@
     border-radius: 10px;
     font-family: 'Aclonica',sans-serif;
     text-decoration: none;
+    transition: .2s ease-in-out;
+}
+.getstarted:hover{
+    background-color: skyblue;
+    color: darkblue;
 }
 
 .learn{
@@ -46,4 +52,9 @@
     border-radius: 10px;
     font-family: 'Aclonica',sans-serif;
     text-decoration: none;
+    transition: .2s ease-in-out;
+}
+.learn:hover{
+    color: orangered;
+    background-color: white;
 }
