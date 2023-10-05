@@ -2,9 +2,6 @@
 
 import Head from "next/head";
 import "../styles/globals.css"; // Import your global styles
-import Navbar from "../components/Navbar";
-import GetStarted from "../components/GetStarted";
-import Features from "../components/Features";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -20,10 +17,8 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap"rel="stylesheet"
         />
       </Head>
-      <Navbar />
-      <GetStarted/>
-      <Features />
-      {/* <Component {...pageProps} /> */}
+
+      <Component {...pageProps} />
     </div>
   );
 }
