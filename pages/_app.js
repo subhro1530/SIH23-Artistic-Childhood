@@ -3,6 +3,7 @@
 import Head from "next/head";
 import "../styles/globals.css"; // Import your global styles
 import Navbar from "../components/Navbar";
+import GetStarted from "../components/GetStarted";
 import Features from "../components/Features";
 
 function MyApp({ Component, pageProps }) {
@@ -20,8 +21,9 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Navbar />
+      <GetStarted/>
       <Features />
-      <Component {...pageProps} />
+      {/* <Component {...pageProps} /> */}
     </div>
   );
 }
