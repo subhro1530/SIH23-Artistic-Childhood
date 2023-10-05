@@ -30,7 +30,7 @@ const Features = () => {
             disparities. Legal frameworks such as the Right to Education Act
             play a pivotal role. Collaborative initiatives by government and
             NGOs aim to eliminate exploitation, fostering an inclusive
-            environment for every child's growth and well-being.
+            environment for every child`&apos;`s growth and well-being.
           </div>
           <div className={styles.btncont1}>
             <button className={styles.btn1_i}>Get Started</button>
@@ -43,7 +43,7 @@ const Features = () => {
             Child Rights and their protection
           </div>
           <div className={styles.cr_text2}>
-            Child rights advocate for a child's holistic development,
+            Child rights advocate for a child`&apos;`s holistic development,
             encompassing education, protection from exploitation, and healthcare
             access. Ensuring their protection involves robust legal frameworks
             and collective societal commitment. Upholding child rights is
