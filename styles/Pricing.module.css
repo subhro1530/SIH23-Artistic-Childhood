@@ -20,7 +20,8 @@
     text-align: left;
     flex-direction: column;
     width: 23%;
-    height: 80%;
+    height: 85%;
+    overflow: scroll;
     padding: 30px 50px;
     margin: 20px;
     border-radius: 40px;
