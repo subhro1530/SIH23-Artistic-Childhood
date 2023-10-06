@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import styles from "../styles/Features.module.css"; // Import the styles for the component
+import styles from "../styles/Pricing.module.css"; // Import the styles for the component
 import Image from "next/image";
 import Spline from "@splinetool/react-spline";
 import { Application } from "@splinetool/runtime";
