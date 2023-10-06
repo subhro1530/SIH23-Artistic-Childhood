@@ -9,185 +9,120 @@ import { Application } from "@splinetool/runtime";
 import { useState } from "react";
 const Pricing = () => {
   return (
-    <div className={styles.pricing_Cont}>
-      <div className={styles.personal_Cont}>
-        <div className={styles.personal_Title}>Personal</div>
-        <div className={styles.personal_pricing_tag}>
-          <div className={styles.pricing}>$5</div>
-          <div className={styles.tag}>p/month</div>
-        </div>
-        <div className={styles.points_Container}>
-          <div className={styles.firstPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+    <div className={styles.container}>
+      {/* Block 1 */}
+      <div className={styles.block}>
+        <h4 className={styles.head}>Personal</h4>
+        <h1 className={styles.heading}>
+          Rs. 299 <p className={styles.para}>p/month</p>
+        </h1>
+        <div className={styles.points}>
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>2 games</div>
+
+
+            <p>Unlimited Games</p>
           </div>
-          <div className={styles.secondPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>Analytics</div>
+
+
+            <p>All resource available</p>
           </div>
-          <div className={styles.thirdPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>Insights Panel</div>
+
+
+            <p>Access to Chatbot</p>
           </div>
-          <div className={styles.fourthPoint}>
-            <div className={styles.svgContainer}>
-              <Image
-                src="/circle-check-solid.svg"
-                width={30}
-                height={30}
-                alt="Circle-check-solid"
-                className={styles.svg}
-              />
-            </div>
-            <div className={styles.pointText}>Share Features</div>
-          </div>
-        </div>
-        <div className={styles.btncont}>
-          <button className={styles.btnWhite}>Get Started</button>
+          <button className={styles.button}>Begin</button>
         </div>
       </div>
-      <div className={styles.professional_Cont}>
-        <div className={styles.professional_Title}>Professional</div>
-        <div className={styles.professional_pricing_tag}>
-          <div className={styles.pricing}>$10</div>
-          <div className={styles.tag}>p/month</div>
-        </div>
-        <div className={styles.points_Container}>
-          <div className={styles.firstPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+      {/* Block 2 */}
+      <div className={styles.block}>
+        <h4 className={styles.head}>Professional</h4>
+        <h1 className={styles.heading}>
+          Rs. 499 <p className={styles.para}>p/month</p>
+        </h1>
+        <div className={styles.points}>
+          <div className={styles.line}>
+            <Image
+              src="/circle-check-solid.svg"
+              width={20}
+              height={20}
+              alt="Circle-check-solid"
+              className={styles.svg}
+            />
+
+            <p>Unlimited Games</p>
+          </div>
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>5 games</div>
+
+
+            <p>All resource available</p>
           </div>
-          <div className={styles.secondPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>Analytics</div>
+
+
+            <p>Access to Chatbot</p>
           </div>
-          <div className={styles.thirdPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>Insights Panel</div>
+
+
+            <p>Live Chat with our agents</p>
           </div>
-          <div className={styles.fourthPoint}>
-            <div className={styles.svgContainer}>
-              <Image
+          <div className={styles.line}>
+            <Image
                 src="/circle-check-solid.svg"
-                width={30}
-                height={30}
+                width={20}
+                height={20}
                 alt="Circle-check-solid"
                 className={styles.svg}
               />
-            </div>
-            <div className={styles.pointText}>Share Features</div>
+
+
+            <p>1 to 1 learning support</p>
           </div>
-        </div>
-        <div className={styles.btncont}>
-          <button className={styles.btnBlack}>Get Started</button>
-        </div>
-      </div>
-      <div className={styles.business_Cont}>
-        <div className={styles.business_Title}>Business</div>
-        <div className={styles.business_pricing_tag}>
-          <div className={styles.pricing}>$50</div>
-          <div className={styles.tag}>p/month</div>
-        </div>
-        <div className={styles.points_Container}>
-          <div className={styles.firstPoint}>
-            <div className={styles.svgContainer}>
-              <Image
-                src="/circle-check-solid.svg"
-                width={30}
-                height={30}
-                alt="Circle-check-solid"
-                className={styles.svg}
-              />
-            </div>
-            <div className={styles.pointText}>12 games</div>
-          </div>
-          <div className={styles.secondPoint}>
-            <div className={styles.svgContainer}>
-              <Image
-                src="/circle-check-solid.svg"
-                width={30}
-                height={30}
-                alt="Circle-check-solid"
-                className={styles.svg}
-              />
-            </div>
-            <div className={styles.pointText}>Analytics</div>
-          </div>
-          <div className={styles.thirdPoint}>
-            <div className={styles.svgContainer}>
-              <Image
-                src="/circle-check-solid.svg"
-                width={30}
-                height={30}
-                alt="Circle-check-solid"
-                className={styles.svg}
-              />
-            </div>
-            <div className={styles.pointText}>Insights Panel</div>
-          </div>
-          <div className={styles.fourthPoint}>
-            <div className={styles.svgContainer}>
-              <Image
-                src="/circle-check-solid.svg"
-                width={30}
-                height={30}
-                alt="Circle-check-solid"
-                className={styles.svg}
-              />
-            </div>
-            <div className={styles.pointText}>Share Features</div>
-          </div>
-        </div>
-        <div className={styles.btncont}>
-          <button className={styles.btnWhite}>Get Started</button>
+          <button className={styles.button}>Begin</button>
         </div>
       </div>
     </div>
