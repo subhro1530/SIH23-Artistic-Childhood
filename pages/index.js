@@ -4,6 +4,9 @@ import GetStarted from "@/components/GetStarted";
 import Navbar from "../components/Navbar";
 import Features from "../components/Features";
 import Pricing from "../components/Pricing";
+import SignUp from "@/components/SignUp";
+import TrustedBy from "@/components/TrustedBy";
+import Footer from "@/components/Footer";
 
 const Home = () => {
   return (
@@ -12,7 +15,10 @@ const Home = () => {
       <Navbar />
       <GetStarted />
       <Features/>
-      <Pricing/>
+      <Pricing />
+      <SignUp />
+      <TrustedBy />
+      <Footer/>
     </div>
   );
 };
