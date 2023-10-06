@@ -14,6 +14,7 @@
     color: white;
     font-family: "Aclonica", sans-serif;
     z-index: 50;
+    overflow-x: hidden;
 }
 
 .features_box1{
