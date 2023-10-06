@@ -9,6 +9,7 @@
   padding:  0 15px;
   position: fixed;
   width: 98vw;
+  z-index: -1;
 }
 
 .logo {
