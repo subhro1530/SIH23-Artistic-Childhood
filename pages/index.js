@@ -3,6 +3,7 @@
 import GetStarted from "@/components/GetStarted";
 import Navbar from "../components/Navbar";
 import Features from "../components/Features";
+import Pricing from "../components/Pricing";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <Navbar />
       <GetStarted />
       <Features/>
+      <Pricing/>
     </div>
   );
 };
