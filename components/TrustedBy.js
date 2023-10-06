@@ -8,8 +8,57 @@ import Spline from "@splinetool/react-spline";
 import { Application } from "@splinetool/runtime";
 import { useState } from "react";
 const TrustedBy = () => {
-    return(
-        <div></div>
-    );
+  return (
+    <div className={styles.trustedbyCont}>
+      <div className={styles.trustedbyTitle}>Trusted by</div>
+      <div className={styles.partnersLogoCont}>
+        <div className={styles.logoCont}>
+          <Image
+            src="/CmpLogo.png"
+            width={100}
+            height={100}
+            alt="Partner 1 "
+            className={styles.logoimg}
+          />
+        </div>
+        <div className={styles.logoCont}>
+          <Image
+            src="/CmpLogo.png"
+            width={100}
+            height={100}
+            alt="Partner 2 "
+            className={styles.logoimg}
+          />
+        </div>
+        <div className={styles.logoCont}>
+          <Image
+            src="/CmpLogo.png"
+            width={100}
+            height={100}
+            alt="Partner 3 "
+            className={styles.logoimg}
+          />
+        </div>
+        <div className={styles.logoCont}>
+          <Image
+            src="/CmpLogo.png"
+            width={100}
+            height={100}
+            alt="Partner 4 "
+            className={styles.logoimg}
+          />
+        </div>
+        <div className={styles.logoCont}>
+          <Image
+            src="/CmpLogo.png"
+            width={100}
+            height={100}
+            alt="Partner 5 "
+            className={styles.logoimg}
+          />
+        </div>
+      </div>
+    </div>
+  );
 };
 export default TrustedBy;

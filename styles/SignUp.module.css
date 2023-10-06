@@ -1,0 +1,30 @@
+/* styles/SignUp.module.css */
+.signUpCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.signUpText {
+  width: 100%;
+  height: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
+  overflow: visible;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  color: var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, #001122);
+  font-size: 50px;
+  letter-spacing: -2.1px;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+}
+.signUpBtnCont {
+}
+.signUpbtnWhite {
+}
+.signUpbtnBlack {
+}
